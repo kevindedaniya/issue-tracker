@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
-    <div class="container">
-      <nav class="navbar navbar-expand-xl navbar-light">
+    <div class="container p-sm-0">
+      <nav class="navbar navbar-expand-xl navbar-light px-0">
         <span class="navbar-brand">
           <img src="@/assets/images/logo.svg" class="d-inline-block align-middle">
           <span class="ml-2">IssueTracker</span>
@@ -35,6 +35,7 @@
 <style lang="sass" scoped>
   .container-fluid
     box-shadow: 0px 3px 6px #00000029
+    position: relative
 
   .navbar-brand span
     vertical-align: bottom
@@ -42,8 +43,7 @@
     color: #0E6BC7
 
   .nav-link
-    font: normal normal medium 12px/16px Roboto
-    letter-spacing: 0px
+    font-size: 12px
     color: #3C3B3B
 </style>
 
