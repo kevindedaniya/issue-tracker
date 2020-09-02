@@ -6,3 +6,9 @@
 
 // Fonts
 @import '_fonts.sass';
+
+// Variables
+@import '_bits.sass';
+
+// Styles that apply to the whole application
+@import '_base.sass';
