@@ -5,6 +5,7 @@ import store from './store';
 
 import 'jquery';
 import 'bootstrap';
+import 'boxicons';
 
 Vue.config.productionTip = false;
 

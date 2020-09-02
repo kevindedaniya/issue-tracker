@@ -1,3 +1,8 @@
-@import "bootstrap/scss/bootstrap";
+// Bootstrap 4.5
+@import 'bootstrap/scss/bootstrap';
 
-@import "_fonts";
+// boxicons icons css
+@import '~boxicons/css/boxicons.min.css';
+
+// Fonts
+@import '_fonts.sass';
