@@ -1,14 +1,28 @@
 <template>
-  <HomeCompoent />
+  <div>
+    <AddNewIssueJumbotron></AddNewIssueJumbotron>
+
+    <ViewIssues></ViewIssues>
+  </div>
 </template>
 
 <script>
-import HomeCompoent from '@/components/Home.vue';
+import AddNewIssueJumbotron from '@/components/AddNewIssueJumbotron.vue';
+import ViewIssues from '@/components/ViewIssues.vue';
 
 export default {
-  name: 'Home',
   components: {
-    HomeCompoent,
+    AddNewIssueJumbotron,
+    ViewIssues,
+  },
+
+  created() {
+    if (localStorage.getItem('issues')) {
+      this.$store.dispatch(
+        'setIssues',
+        JSON.parse(localStorage.getItem('issues')),
+      );
+    }
   },
 };
 </script>
