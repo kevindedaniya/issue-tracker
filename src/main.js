@@ -7,10 +7,12 @@ import store from './store';
 import 'bootstrap';
 import 'boxicons';
 
-Vue.config.productionTip = false;
 window.$ = jQuery;
 window.jQuery = jQuery;
 
+require('@/helpers/generalHelpers.js');
+
+Vue.config.productionTip = false;
 
 new Vue({
   router,
