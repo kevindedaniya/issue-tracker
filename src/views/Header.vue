@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid bg-white">
     <div class="container p-sm-0">
       <nav class="navbar navbar-expand-xl navbar-light px-0">
         <span class="navbar-brand">
@@ -33,21 +33,16 @@
 </template>
 
 <style lang="sass" scoped>
-  .container-fluid
-    box-shadow: 0px 3px 6px #00000029
-    position: relative
+.container-fluid
+  box-shadow: 0px 3px 6px #00000029
+  position: relative
 
-  .navbar-brand span
-    vertical-align: bottom
-    font: normal normal 600 15px/21px BC Alphapipe
-    color: #0E6BC7
+.navbar-brand span
+  vertical-align: bottom
+  font: normal normal 600 15px/21px BC Alphapipe
+  color: #0E6BC7
 
-  .nav-link
-    font-size: 12px
-    color: #3C3B3B
+.nav-link
+  font-size: 12px
+  color: #3C3B3B
 </style>
-
-<script>
-export default {
-};
-</script>
