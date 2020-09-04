@@ -2,10 +2,10 @@
   <div class="container-fluid bg-white">
     <div class="container p-sm-0">
       <nav class="navbar navbar-expand-xl navbar-light px-0">
-        <span class="navbar-brand">
+        <router-link to="/" class="navbar-brand">
           <img src="@/assets/images/logo.svg" class="d-inline-block align-middle">
           <span class="ml-2">IssueTracker</span>
-        </span>
+        </router-link>
 
         <button
           class="navbar-toggler"
