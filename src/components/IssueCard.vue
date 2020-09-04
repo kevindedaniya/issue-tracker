@@ -100,7 +100,6 @@ export default {
 
   methods: {
     getStatusDisplayFlag() {
-      console.log(this.issue.status);
       return this.$store.getters.getStatusDisplayFlag(this.issue.status);
     },
 
